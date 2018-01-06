@@ -46,7 +46,8 @@ def again():
 	ag = input('''
 Do you want to calculate again:::
 Type Y for yes N for no
-''')
+''') 
+	#Accept y or Y and  n or N as input using .upper()
 	if(ag.upper() == 'Y'):
 		calculate()
 	elif(ag.upper() == 'N'):
